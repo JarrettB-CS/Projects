@@ -1,0 +1,20 @@
+# PyCharm / JetBrains settings
+.idea/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment/secrets files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
