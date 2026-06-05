@@ -5,8 +5,10 @@
 
 import math
 
+#Number of houses
 houses = int(input())
 
+#Chances of getting a dollar bill
 chance = math.ceil((2 / houses) * 100)
 
 print(chance)

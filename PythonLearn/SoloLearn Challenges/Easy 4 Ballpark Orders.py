@@ -8,7 +8,7 @@ order = input("What would you like to order? ")
 order = order.split(" ")
 
 # Menu prices
-menu = {"Nachos":6,
+menu = {"Nachos": 6,
         "Pizza": 6,
         "Cheeseburger": 10,
         "Water": 4,
@@ -19,7 +19,7 @@ menu = {"Nachos":6,
 total = 0
 for item in order:
     if item in menu:
-       total += menu.get(item)
+        total += menu.get(item)
     else:
         total += menu.get("Coke")
 

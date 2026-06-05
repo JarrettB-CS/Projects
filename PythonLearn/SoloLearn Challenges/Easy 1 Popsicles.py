@@ -7,7 +7,6 @@
 siblings = int(input("How many siblings do you have? "))
 popsicles = int(input("How many popsicles do you have? "))
 
-
 # Distribute popsicles if you have an even amount
 if popsicles % siblings == 0:
     print("give away")
