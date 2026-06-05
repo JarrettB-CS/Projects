@@ -15,10 +15,14 @@ while x < 4000000:
     if fib_seq[i] % 2 == 0:
         fib_seq_even.append(fib_seq[i])
 
-
 print(fib_seq)
 print(fib_seq_even)
 print(sum(fib_seq_even))
 
-# Answer:  4613732
-# Completed on Sun, 31 Aug 2025, 12:05
+# OPTIMIZATION TODO:
+# - [easy] Re-solve using a different loop structure while clearly tracking each Fibonacci term.
+# - [medium] Refactor into a reusable function that accepts any maximum Fibonacci value.
+# - [hard] Optimize by generating only even Fibonacci numbers instead of checking every term.
+
+# UPDATE LOG:
+# 1.0.0 (2025-08-31) [solved] – Solved problem and confirmed answer: 4613732.

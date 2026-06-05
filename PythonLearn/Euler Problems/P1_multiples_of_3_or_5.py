@@ -13,6 +13,10 @@ while x < 1000:
 print(mult_list)
 print(sum(mult_list))
 
+# OPTIMIZATION TODO:
+# - [easy] Re-solve using a different beginner-friendly loop structure.
+# - [medium] Refactor into a reusable function that accepts any limit and list of multiples.
+# - [hard] Solve using a mathematical formula instead of checking every number.
 
-# Answer:  233168
-# Completed on Sat, 30 Aug 2025, 11:30
+# UPDATE LOG:
+# 1.0.0 (2025-08-30) [solved] – Solved problem and confirmed answer: 233168.
