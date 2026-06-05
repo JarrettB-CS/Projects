@@ -3,7 +3,13 @@
 # Two houses give dollar bills, one gives a toothbrush, and the rest give candy.
 # Output the percentage rounded up to the nearest whole number.
 
+import math
 
+houses = int(input())
+
+chance = math.ceil((2 / houses) * 100)
+
+print(chance)
 
 # TODO:
 # - [easy] Display the raw probability before converting to a percentage.
@@ -11,4 +17,4 @@
 # - [hard] Allow the number of dollar-bill and toothbrush houses to be customized.
 #
 # UPDATE LOG:
-# 1.0.0 (N/A) [init] – Initial challenge template created.
+# 1.0.0 (2026-06-04) [init] – Calculated the probability of drawing a dollar bill and rounded the resulting percentage up to the nearest whole number.
