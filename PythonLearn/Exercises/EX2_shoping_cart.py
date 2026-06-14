@@ -1,13 +1,14 @@
 # EXERCISE 2 Shopping cart program
 # Simple shopping cart calculator for a single item with quantity and total cost.
 
-
+# Create lists to store variables
 shopping_list = []
 prices = []
 quantities = []
 final = 0
 more_items = "yes"
 
+# Add items, pricing, and quantity
 while more_items == "yes":
     item = input("Enter item: ")
     shopping_list.append(item)
@@ -23,6 +24,8 @@ while more_items == "yes":
     more_items = input("Would you like to add another: ")
 
 print()
+
+# Print the receipt
 x = 0
 for item in shopping_list:
     print(f"{quantities[x]} x {shopping_list[x]} ${prices[x]:.2f}")
