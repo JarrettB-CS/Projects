@@ -25,7 +25,7 @@ while more_items == "yes":
 print()
 x = 0
 for item in shopping_list:
-    print(f"{shopping_list[x]} x {quantities[x]} = ${prices[x]:.2f}")
+    print(f"{quantities[x]} x {shopping_list[x]} ${prices[x]:.2f}")
     x = x + 1
 
 print(f"Your total is ${final:.2f}")
