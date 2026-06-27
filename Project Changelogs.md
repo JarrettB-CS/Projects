@@ -662,3 +662,15 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 # UPDATE LOG:
 # 1.0.0 (2025-08-31) [solved] – Solved problem and confirmed answer: 4613732.
 ```
+
+## CS Rebuild HQ – Support Ticket Summary Builder
+
+**Description:** Collects basic support-ticket information from the user and prints a clean ticket summary.
+
+### TODO
+- [easy] Add spacing and separators to make the printed ticket easier to read.
+- [medium] Validate the urgency rating so it only accepts values from 1 to 5.
+- [hard] Add ticket IDs, timestamps, and support-priority labels.
+
+### Update Log
+- 1.0.0 (2026-06-27) [init] – Initial working version. Collected support ticket details and printed a clean ticket summary without using if statements.
