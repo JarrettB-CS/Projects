@@ -665,12 +665,14 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
 ## CS Rebuild HQ – Support Ticket Summary Builder
 
-**Description:** Collects basic support-ticket information from the user and prints a clean ticket summary.
+**Description:** Collects customer, device, operating system, issue, urgency, and priority information, then prints a clean support ticket summary.
 
 ### TODO
-- [easy] Add spacing and separators to make the printed ticket easier to read.
+- [easy] Add a closing separator after the support ticket summary.
 - [medium] Validate the urgency rating so it only accepts values from 1 to 5.
 - [hard] Add ticket IDs, timestamps, and support-priority labels.
 
 ### Update Log
+- 1.1.0 (2026-07-09) [feature] [homework] [easy] – Completed TODO: Added spacing and separators to make the support ticket easier to read.
+- 1.0.1 (2026-06-28) [homework] – Displayed priority messages based on urgency.
 - 1.0.0 (2026-06-27) [init] – Initial working version. Collected support ticket details and printed a clean ticket summary without using if statements.
