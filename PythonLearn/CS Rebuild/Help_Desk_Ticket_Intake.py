@@ -9,29 +9,29 @@ issue_category = input("Enter your type of issue: ")
 issue_description = input("Enter your issue details: ")
 urgency = int(input("Enter urgency 1-5: "))
 
-print()
-print("--- Support Ticket ---")
-print(f"Customer: {customer_name}")
-print(f"Device: {device_type}")
-print(f"Operating System: {operating_system}")
-print(f"Category: {issue_category}")
-print(f"Issue: {issue_description}")
-print(f"Urgency: {urgency}")
-
 if customer_name == "":
     print("Missing customer name")
 elif device_type == "":
     print("Missing device type")
 elif urgency < 1 or urgency > 5:
     print("Invalid urgency rating")
-elif urgency == 5 or issue_category == "security":
-    print("Priority: Critical - escalate immediately")
-elif urgency in [3, 4]:
-    print("Priority: Medium - normal support queue")
 else:
-    print("Priority: Low - handle when available")
+    print("Ticket accepted")
+    print()
+    print("--- Support Ticket ---")
+    print(f"Customer: {customer_name}")
+    print(f"Device: {device_type}")
+    print(f"Operating System: {operating_system}")
+    print(f"Category: {issue_category}")
+    print(f"Issue: {issue_description}")
+    print(f"Urgency: {urgency}")
 
-print("Ticket accepted")
+    if urgency == 5 or issue_category == "security":
+        print("Priority: Critical - escalate immediately")
+    elif urgency in [3, 4]:
+        print("Priority: Medium - normal support queue")
+    else:
+        print("Priority: Low - handle when available")
 
 # TODO:
 # - [easy] Add a closing separator after the support ticket summary.
